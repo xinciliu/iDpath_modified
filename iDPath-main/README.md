@@ -5,4 +5,5 @@ The github link is : https://github.com/JasonJYang/iDPath .
 
 # Modifications
 I did some modifications to model/model.py and try different deep learning models other than LSTM.
+
 I did some modifications to model/loss.py and try different loss functions to see the performance. 
