@@ -24,9 +24,9 @@ def generate_config():
             "max_path_length": 8, 
             "max_path_num": 256, 
             "random_state": 0,
-            "recreate": false,
-            "use_disease_seed": true,
-            "shuffle": true,
+            "recreate": "false",
+            "use_disease_seed": "true",
+            "shuffle": "true",
             "validation_split": 0.1,
             "test_split": 0.2,
             "num_workers": 2
@@ -37,7 +37,7 @@ def generate_config():
         "args":{
             "lr": 0.001,
             "weight_decay": 0,
-            "amsgrad": true
+            "amsgrad": "true"
         }
     },
     "loss": "bce_withlogits_loss",
@@ -62,7 +62,7 @@ def generate_config():
         "monitor": "min val_loss",
         "early_stop": 10,
 
-        "tensorboard": false
+        "tensorboard": "false"
     }}
     train_json['arch']['args']['deepm'] = model
     train_json['loss'] = loss
