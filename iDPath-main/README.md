@@ -19,7 +19,9 @@ nll_loss: nll_loss   binary_cross_entropy_with_logits: bce_withlogits_loss     s
 
    # generating the config function using different deep-learning models/loss functions
    
-     you can use:  python generate_config.py ${model_name} ${loss_name} ${config_file_name}  to generate the training config file for yourself
+     you can use:  python generate_config.py ${model_name} ${loss_name} ${config_file_name}  
+     
+     to generate the training config file for yourself
      
      for example: python generate_config.py bilstm softmax_cross_entropy_with_logits config_file1
      
